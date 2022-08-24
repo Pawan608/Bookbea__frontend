@@ -1,0 +1,33 @@
+main__modal {
+  margin: 0 auto;
+  align-self: flex-start;
+  width: 100%;
+}
+.alert {
+  height: 5rem;
+  width: 80rem;
+  background-color: aliceblue;
+  position: absolute;
+  z-index: 10000;
+  top: 2rem;
+  align-self: flex-start;
+  color: rgb(27, 3, 3);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%);
+  transition: all 0.25s;
+}
+.message {
+  align-self: center;
+  margin: 0 auto;
+}
+.cross {
+  align-self: flex-start;
+  cursor: pointer;
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}

@@ -1,0 +1,7 @@
+.message__icon:hover {
+  color: rgb(20, 85, 109);
+}
+.message__icon:focus {
+  color: rgb(20, 85, 109);
+  transform: scale(1.2);
+}
